@@ -30,18 +30,18 @@ hr {
 	display: block;
 	padding: 6px;
 	border: 1px solid white;
+	border-radius: 3px;
 	background-color: #A7BFA5;
 	margin-top: -45px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	font-size: 17px;
-	font-family: 'Montserrat';
-	
   }
 
 .searchBar ::placeholder {
 	color: white;
+	font-family: 'Montserrat';
 }
 
 /* Style the links inside the sidenav */
