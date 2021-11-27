@@ -2,7 +2,8 @@
 body {
 	background-color: white;
 	overflow-x: hidden;
-	font-family: 'Montserrat';
+    font-family: 'Montserrat';
+	width: 70%;
 }
 
 hr {
@@ -25,9 +26,6 @@ hr {
 	
 }
 
-table {
-	color: #707070;
-}
 
 /* Style the search box inside the navigation bar */
 .searchBar input[type=text] {
@@ -57,6 +55,7 @@ padding: 15px; /* 15px padding */
 width: 120px; /* Set a specific width */
 text-decoration: none; /* Remove underline */
 font-size: 20px; /* Increase font size */
+font-family: 'Montserrat';
 color: white; /* White text color */
 border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
@@ -86,48 +85,14 @@ top: 252px;
 background-color: #A7BFA5 /* Light Black */
 }
 
-.circular--square {
-	border-radius: 50%;
-	border: 2px solid #A7BFA5;
-}
-
-
-/*
-Begin of Content-Squares
-*/
-
-section{
-	width: 70%;
-	column-width: 33%;
-	column-gap: 10px;
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
-section .content{
-	width: 31%; 
-	border: 1px solid #A7BFA5;
-	border-radius: 10px;
-	float: left;
-	margin-top: 10px;
-  }
-
-  .flex-container {
-	display:flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
-  }
-
-
-.break {
-	flex-basis: 100%;
-	height: 0;
-}
-
-
-#contentPic {
-	border-radius: 8px;
-	width: 100%;
-	margin-bottom: -4px;
-}
-
+/* use a semi-transparent image for the overlay */
+#overlay {
+	background-image:url(/media/img/overlay/transparent.png);
+	color:#efefef;
+	height:450px;
+	}
+	/* container for external content. uses vertical scrollbar, if needed */
+	div.contentWrap {
+	height:441px;
+	overflow-y:auto;
+	}
