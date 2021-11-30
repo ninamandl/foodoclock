@@ -21,6 +21,10 @@ footer {
 	margin-top: 15px;
 }
 
+.footer h2{
+	font-weight: 400;
+}
+
 hr {
 	width: 70%;
 	border: 0.5px solid #A7BFA5;
