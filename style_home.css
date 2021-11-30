@@ -2,7 +2,8 @@
 body {
 	background-color: white;
 	overflow-x: hidden;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
 }
 
 header{
@@ -56,12 +57,14 @@ table {
 	position: relative;
 	font-size: 17px;
 	color: white;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
   }
 
 .searchBar ::placeholder {
 	color: white;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
 }
 
 .sidenav{
@@ -162,7 +165,8 @@ flex-wrap: wrap;
 	left: 15%;
 	right: 15%;
 	background-color: white; 
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
 	color: #707070;
 	padding: 20px;
 	overflow-y: scroll;
