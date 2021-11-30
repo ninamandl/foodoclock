@@ -6,27 +6,37 @@ body {
 	font-weight: 100;
 }
 
-hr {
-	width: 70%;
-	border: 0.5px solid #A7BFA5;
-	margin-left: auto;
-	margin-right: auto;
+header{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+}
+
+footer {
+	background-color: #A7BFA5;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 15px;
+}
+
+.footer h2{
+	font-weight: 400;
 }
 
 .topNav img{
 	height: 50px;
-	
 }
 
 .topNav{
 	width: 100%;
 	height: 50px;
 	background-color: #A7BFA5;
-	display: block;
-	
+	display: block;	
 }
 
-
+/* Style the search box inside the navigation bar */
 .searchBar input[type=text] {
 	display: block;
 	padding: 6px;
@@ -38,7 +48,8 @@ hr {
 	margin-right: auto;
 	position: relative;
 	font-size: 17px;
-	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-family: 'Montserrat', sans-serif ;
 	font-weight: 300;
   }
 
@@ -48,23 +59,26 @@ hr {
 	font-weight: 100;
 }
 
+.sidenav{
+	position: fixed;
+	margin-top: -60px;
+}
+
 /* Style the links inside the sidenav */
 #mySidenav a {
 	position: absolute; /* Position them relative to the browser window */
-	left: -100px; /* Position them outside of the screen */
+	left: -110px; /* Position them outside of the screen */
 	transition: 0.3s; /* Add transition on hover */
 	padding: 15px; /* 15px padding */
 	width: 120px; /* Set a specific width */
 	text-decoration: none; /* Remove underline */
 	font-size: 20px; /* Increase font size */
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
 	color: white; /* White text color */
 	border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
 #mySidenav a:hover {
-	left: 0; /* On mouse-over, make the elements appear as they should */
+	left: -10px; /* On mouse-over, make the elements appear as they should */
 }
 
 /* The about link: 20px from the top with a green background */
@@ -79,13 +93,11 @@ hr {
 }
 
 #explore {
-	top: 190px;
-	background-color: #A7BFA5; /* Red */
+top: 190px;
+background-color: #A7BFA5; /* Red */
 }
 
 #activities {
-	top: 252px;
-	background-color: #A7BFA5 /* Light Black */
+top: 252px;
+background-color: #A7BFA5 /* Light Black */
 }
-
-
