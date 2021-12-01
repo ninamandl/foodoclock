@@ -101,3 +101,10 @@ background-color: #A7BFA5; /* Red */
 top: 252px;
 background-color: #A7BFA5 /* Light Black */
 }
+
+/* Set the size of the div element that contains the map */
+.mapouter {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}

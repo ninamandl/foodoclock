@@ -161,7 +161,7 @@ flex-wrap: wrap;
 #overlay01 , #overlay02 {
 	position: fixed; /* Sit on top of the page content */
 	display: none; /* Hidden by default */
-	height: auto; 
+	height: 85%; 
 	border: 2px solid #A7BFA5;
 	border-radius: 10px;
 	top: 70px; 
@@ -172,8 +172,7 @@ flex-wrap: wrap;
 	font-weight: 100;
 	color: #707070;
 	padding: 20px;
-	overflow-y: scroll;
-	
+	overflow: scroll;
   }
 
   #x {

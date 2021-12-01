@@ -14,3 +14,4 @@ function content02_on() {
 function content02_off() {
 	document.getElementById("overlay02").style.display = "none";
 }
+
