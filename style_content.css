@@ -13,7 +13,7 @@ header{
 }
 
 footer {
-	background-color: #A7BFA5;
+	background-color: #5E7D5E;
 	color: white;
 	text-align: center;
 	padding-top: 50px;
@@ -33,7 +33,7 @@ footer {
 .topNav{
 	width: 100%;
 	height: 50px;
-	background-color: #A7BFA5;
+	background-color: #5E7D5E;
 	display: block;	
 }
 
@@ -43,7 +43,7 @@ footer {
 	padding: 6px;
 	border: 1px solid white;
 	border-radius: 3px;
-	background-color: #A7BFA5;
+	background-color: #5E7D5E;
 	margin-top: -45px;
 	margin-left: auto;
 	margin-right: auto;
@@ -85,26 +85,26 @@ footer {
 /* The about link: 20px from the top with a green background */
 #home {
 	top: 70px;
-	background-color: #A7BFA5;
+	background-color: #5E7D5E;
 }
 
 #map {
 	top: 130px;
-	background-color: #A7BFA5; /* Blue */
+	background-color: #5E7D5E; /* Blue */
 }
 
 #explore {
 top: 190px;
-background-color: #A7BFA5; /* Red */
+background-color: #5E7D5E; /* Red */
 }
 
 #activities {
 top: 252px;
-background-color: #A7BFA5 /* Light Black */
+background-color: #5E7D5E /* Light Black */
 }
 
 .content {
-	border: 2px solid #A7BFA5;
+	border: 2px solid #5E7D5E;
 	border-radius: 10px;
 	top: 70px; 
 	left: 15%;
