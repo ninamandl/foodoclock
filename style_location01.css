@@ -1,0 +1,139 @@
+
+body {
+	background-color: white;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+header{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+}
+
+footer {
+	background-color: #5E7D5E;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 15px;
+}
+
+
+.footer h2{
+	font-weight: 400;
+}
+
+.topNav img{
+	height: 50px;
+}
+
+.topNav{
+	width: 100%;
+	height: 50px;
+	background-color: #5E7D5E;
+	display: block;	
+}
+
+/* Style the search box inside the navigation bar */
+.searchBar input[type=text] {
+	display: block;
+	padding: 6px;
+	border: 1px solid white;
+	border-radius: 3px;
+	background-color: #5E7D5E;
+	margin-top: -45px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-size: 17px;
+	color: white;
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 300;
+  }
+
+.searchBar ::placeholder {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+.sidenav{
+	position: fixed;
+	margin-top: -60px;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+	position: absolute; /* Position them relative to the browser window */
+	left: -110px; /* Position them outside of the screen */
+	transition: 0.3s; /* Add transition on hover */
+	padding: 15px; /* 15px padding */
+	width: 120px; /* Set a specific width */
+	text-decoration: none; /* Remove underline */
+	font-size: 20px; /* Increase font size */
+	color: white; /* White text color */
+	border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+	left: -10px; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+	top: 70px;
+	background-color: #5E7D5E;
+}
+
+#map {
+	top: 130px;
+	background-color: #5E7D5E; /* Blue */
+}
+
+#explore {
+top: 190px;
+background-color: #5E7D5E; /* Red */
+}
+
+#activities {
+top: 252px;
+background-color: #5E7D5E /* Light Black */
+}
+
+.content {
+	border: 2px solid #5E7D5E;
+	border-radius: 10px;
+	top: 70px; 
+	left: 15%;
+	right: 15%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	color: #707070;
+	padding: 20px;
+	width: 70%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+#contentPic {
+	border-radius: 8px;
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+#contentText {
+	  margin-top: -15px;
+  }
+
+#back {
+    position: relative;
+	border: none;
+    float: left;
+    background: white;
+    top: -10px;
+    left: -10px;
+}
