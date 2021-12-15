@@ -102,3 +102,76 @@ background-color: #5E7D5E; /* Red */
 top: 252px;
 background-color: #5E7D5E /* Light Black */
 }
+
+
+
+.activities {
+	width: 70%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.username {
+	font-family: 'Montserrat', sans-serif ;
+	font-weight: 400;
+}
+
+.activity{
+	width: 100%;
+
+}
+
+.ProfileImg {
+	float: left;
+	border-radius: 50%;
+	border: 3px solid #5E7D5E;
+	height: 100px;
+}
+
+.post{
+	border: 3px solid #5E7D5E;
+	height: 100px;
+
+	float: right;
+}
+
+/*
+overlay
+*/
+
+#contentPic {
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+#overlay01 , #overlay02 {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	min-height: 50%; 
+	max-height: 85%;
+	border: 2px solid #5E7D5E;
+	border-radius: 10px;
+	top: 70px; 
+	left: 15%;
+	right: 15%;
+	background-color: white; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	color: #707070;
+	padding: 20px;
+	overflow: scroll;
+  }
+
+  #x {
+    position: relative;
+	border: none;
+    float: right;
+    background: white;
+    top: -10px;
+    right: -10px;
+}

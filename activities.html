@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Food o'Clock</title>
+        <script src="javascript.js"></script>
         <link rel="stylesheet" type="text/css" href="style_activities.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -10,6 +11,9 @@
     </head>
 
     <body>
+
+<!-- HEADER -->
+
         <header>
             <div class="topNav">
                 <a href="home.html" > <img src="img/logo.png" alt="this is a logo" > </a>
@@ -22,7 +26,9 @@
     
                 <img src="icons/message.png" alt="this is a message" style="float: right; margin-top: -45px;">
             </div>
-          </header>
+        </header>
+
+
 
         <div id="mySidenav" class="sidenav">
             <a href="home.html" id="home">Home <img src="icons/home.png" alt="this is a home icon" style="height: 25px; float: right;"> </a>
@@ -32,20 +38,120 @@
 
         </div>
 
-        <div style="margin-left: 300px">
-            <h1 >
-            Activities Page
-            </h1>
+        <div class="activities">
 
-            <p>
-                coming soon...
-            </p>
+<!-- Activitie01 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/foodie.jpg" alt="profile image" > </td>
+                <td class="username" > @foodie </td>
+                <td class="activity"> liked your post </td>
+                <td rowspan="2" onclick="content01_on()" > <img class="post" src="img/activities/market.jpeg" alt="profile image" > </td>
+              </tr>
+            </tbody>
+          </table>
+
+          
+
+          <hr>
+
+<!-- Activitie02 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/tina_food.jpg" alt="profile image" > </td>
+                <td class="username" > @tine_food </td>
+                <td class="activity"> commented your post </td>
+                <td rowspan="2" onclick="content01_on()" > <img class="post" src="img/activities/market.jpeg" alt="profile image" > </td>
+              </tr>
+            </tbody>
+          </table>
+            
+          <hr>
+
+<!-- Activitie03 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/brunch_love.jpg" alt="profile image" > </td>
+                <td class="username" > @brunch_love </td>
+                <td class="activity"> is now follogwing you </td>
+              </tr>
+            </tbody>
+          </table>
+            
+          <hr>
+
+<!-- Activitie04 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/healthy_food.jpg" alt="profile image" > </td>
+                <td class="username" > @healthy_food </td>
+                <td class="activity"> is now follogwing you </td>
+              </tr>
+            </tbody>
+          </table>
+            
+          <hr>
+
+<!-- Activitie05 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/restaurant_test.jpeg" alt="profile image" > </td>
+                <td class="username" > @restaurant_test </td>
+                <td class="activity"> liked your post </td>
+                <td rowspan="2" id="content02" onclick="content02_on()"> <img class="post" src="img/activities/grain.jpeg" alt="profile image" > </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr>
+
+<!-- Activitie06 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/bar_love.jpg" alt="profile image" > </td>
+                <td class="username" > @bar_love </td>
+                <td class="activity"> liked your post </td>
+                <td rowspan="2" id="content02" onclick="content02_on()" > <img class="post" src="img/activities/grain.jpeg" alt="profile image" > </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <hr>
+
+ <!-- Activitie06 -->
+
+          <table>
+            <tbody>
+              <tr>
+                <td class="profileImg" rowspan="2"> <img class="ProfileImg" src="img/ProfileImg/foodie.jpg" alt="profile image" > </td>
+                <td class="username" > @foodie </td>
+                <td class="activity"> commented your post </td>
+                <td rowspan="2" id="content02" onclick="content02_on()" > <img class="post" src="img/activities/grain.jpeg" alt="profile image" > </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
         </div>
         
         
 
        
-        <!-- FOOTER -->
+
+<!-- FOOTER -->
 
         <footer class="footer">
             <!-- Facebook -->
@@ -148,7 +254,175 @@
             </p>
             
           </footer>
+
+<!-- OVERLAYS -->
+
+          <div id="overlay01" >
+            <button id="x" onclick="content01_off()" style="border: none;">
+              <img src="icons/GreenIcons/cross.png" alt="cross icon" height="25">
+            </button>
+
+            <table id="contentText">
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      A really nice fishmarket, where you can buy everything alive and bring it upstairs to a restaurant to get it cooked for you.
+                      The food is extremely fresh, the people and the atmosphere are amazing.
+                      I would definitely recommend this place even though you are not the biggest fish and seafood fan. It’s a very special experience.
+                      Really early there is also the famous auction every day.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    My Rating:
+                    <img src="img/rate05.png" alt="rate icons" height="15" >
+                  </td>             
+                </tr>
+                <tr>
+                  <td>
+                    <img src="icons/location.png" alt="location icons" width="20" height="20">
+                    Noryangjin Fisheries Wholesale Market 
+                  </td>
+                </tr>
+
+              </tbody>
+              </table>
+
+              <img src="img/market.jpeg" alt="Picure of shrimps" id="contentPic">
+          
+<!-- Interaction Bar -->
+
+              <table id="interactionBar" width="100%" align="center">
+                <tbody>
+                  <tr>
+                    <td align="left" width="25">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                        <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M20.781,6.265a4.8,4.8,0,0,0-7.444,0L12.323,7.428,11.309,6.265a4.8,4.8,0,0,0-7.444,0,6.677,6.677,0,0,0,0,8.535l1.014,1.163L12.323,24.5l7.444-8.535L20.781,14.8a6.675,6.675,0,0,0,0-8.535Z" transform="translate(-1.823 -3.997)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                      </svg>
+                    </td>
+                    <td align="left">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21.009" viewBox="0 0 24 21.009">
+                        <path id="Icon_awesome-comment-alt" data-name="Icon awesome-comment-alt" d="M20.125,0H2.875A2.71,2.71,0,0,0,0,2.5V13.749a2.71,2.71,0,0,0,2.875,2.5H7.188V19.53a.549.549,0,0,0,.858.379l5.611-3.66h6.469A2.71,2.71,0,0,0,23,13.749V2.5A2.71,2.71,0,0,0,20.125,0Z" transform="translate(0.5 0.5)" fill="none" stroke="#5E7D5E" stroke-width="1"/>
+                      </svg>                      
+                    </td>
+
+                    <td align="center">
+                      <div align="center" width="75">
+                          <img src="img/rate04.png" alt="rate icons" height="15" >
+                          <a> 256 </a>
+                      </div>
+                    </td>
+                    
+
+                    <td align="right">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16.103" height="21" viewBox="0 0 16.103 21">
+                        <path id="Icon_feather-bookmark" data-name="Icon feather-bookmark" d="M22.6,24.5l-7.552-5.556L7.5,24.5V6.722A2.191,2.191,0,0,1,9.658,4.5H20.446A2.191,2.191,0,0,1,22.6,6.722Z" transform="translate(-7 -4)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                      </svg>                      
+                    </td>
+
+                    <td align="right" width="25">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="21.207" height="21.207" viewBox="0 0 21.207 21.207">
+                        <path id="Pfad_5" data-name="Pfad 5" d="M27.382,3,16.5,14.038" transform="translate(-6.882 -2.293)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                        <path id="Pfad_6" data-name="Pfad 6" d="M23,3,16,23l-4-9L3,10Z" transform="translate(-2.5 -2.293)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                      </svg>                      
+                      
+                    </td>
+                    
+                  </tr>
+                </tbody>
+                </table>
+
+          </div>
+
+<!-- CONTENT 02 -->
+          
+          <div id="overlay02" >
+            <button id="x" onclick="content02_off()" style="border: none;">
+              <img src="icons/GreenIcons/cross.png" alt="cross icon" height="25">
+            </button>
+
+
+            <table id="contentText">
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      Just like the slogan of the Grain, Tasty and nutritious meal, 
+                      it provides freshly made brunch you can enjoy all day long. 
+                      You can select the items and build the brunch as you desire. 
+                      You can enjoy your customized meal with fresh coffee/juice that wakes you for the day.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    My Rating:
+                    <img src="img/rate05.png" alt="rate icons" height="15" >
+                  </td>             
+                </tr>
+                <tr>
+                  <td>
+                    <img src="icons/location.png" alt="location icons" width="20" height="20">
+                    GRAIN Seoul 
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <img src="img/grain.png" alt="Picure of shrimps" id="contentPic">
+
+            <!-- Interaction Bar Grain -->
+
+            <table id="interactionBar" width="100%" align="center">
+              <tbody>
+                <tr>
+                  <td align="left" width="25">
+                    <svg onclick="heart" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" id="heart">
+                      <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M20.781,6.265a4.8,4.8,0,0,0-7.444,0L12.323,7.428,11.309,6.265a4.8,4.8,0,0,0-7.444,0,6.677,6.677,0,0,0,0,8.535l1.014,1.163L12.323,24.5l7.444-8.535L20.781,14.8a6.675,6.675,0,0,0,0-8.535Z" transform="translate(-1.823 -3.997)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                      
+                      
+                    </svg>
+                    
+                  </td>
+                  <td align="left">                      
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21.009" viewBox="0 0 24 21.009">
+                        <path id="Icon_awesome-comment-alt" data-name="Icon awesome-comment-alt" d="M20.125,0H2.875A2.71,2.71,0,0,0,0,2.5V13.749a2.71,2.71,0,0,0,2.875,2.5H7.188V19.53a.549.549,0,0,0,.858.379l5.611-3.66h6.469A2.71,2.71,0,0,0,23,13.749V2.5A2.71,2.71,0,0,0,20.125,0Z" transform="translate(0.5 0.5)" fill="none" stroke="#5E7D5E" stroke-width="1"/>
+                    </svg> 
+                                      
+                  </td>
+
+                  <td align="center">
+                    <div align="center" width="75">
+                        <img src="img/rate04.png" alt="rate icons" height="15" >
+                        <a> 334 </a>
+                    </div>
+                  </td>
+                  
+
+                  <td align="right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16.103" height="21" viewBox="0 0 16.103 21">
+                      <path id="Icon_feather-bookmark" data-name="Icon feather-bookmark" d="M22.6,24.5l-7.552-5.556L7.5,24.5V6.722A2.191,2.191,0,0,1,9.658,4.5H20.446A2.191,2.191,0,0,1,22.6,6.722Z" transform="translate(-7 -4)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                    </svg>                      
+                  </td>
+
+                  <td align="right" width="25">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21.207" height="21.207" viewBox="0 0 21.207 21.207">
+                      <path id="Pfad_5" data-name="Pfad 5" d="M27.382,3,16.5,14.038" transform="translate(-6.882 -2.293)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                      <path id="Pfad_6" data-name="Pfad 6" d="M23,3,16,23l-4-9L3,10Z" transform="translate(-2.5 -2.293)" fill="none" stroke="#5E7D5E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                    </svg>                      
+                    
+                  </td>
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
         
+
+
 
     </body>
 </html> 
