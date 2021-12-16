@@ -4,7 +4,7 @@ body {
 	overflow-x: hidden;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-	color: #707070;
+    color: #707070;
 }
 
 header{
@@ -21,7 +21,6 @@ footer {
 	padding-bottom: 50px;
 	margin-top: 15px;
 }
-
 
 .footer h2{
 	font-weight: 400;
@@ -95,53 +94,68 @@ footer {
 }
 
 #explore {
-top: 190px;
-background-color: #5E7D5E; /* Red */
+	top: 190px;
+	background-color: #5E7D5E; /* Red */
 }
 
 #activities {
-top: 252px;
-background-color: #5E7D5E /* Light Black */
+	top: 252px;
+	background-color: #5E7D5E /* Light Black */
 }
 
+.circular--square {
+	border-radius: 50%;
+	border: 2px solid #5E7D5E;
+}
 
+table {
+	color: #707070;
+}
 
-.activities {
+hr {
 	width: 70%;
-	margin-top: 10px;
+	border: 0.5px solid #5E7D5E;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
-
-.username {
-	font-family: 'Montserrat', sans-serif ;
-	font-weight: 400;
-}
-
-.activity{
-	width: 100%;
-
-}
-
-.ProfileImg {
-	float: left;
-	border-radius: 50%;
-	border: 3px solid #5E7D5E;
-	height: 100px;
-}
-
-.post{
-	border: 3px solid #5E7D5E;
-	height: 100px;
-
-	float: right;
-}
-
 /*
-overlay
+Begin of Content-Squares
 */
+
+section{
+	width: 70%;
+	column-width: 33%;
+	column-gap: 1%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+section .content{
+	width: 32%; 
+	border: 1px solid #5E7D5E;
+	border-radius: 10px;
+	float: left;
+	margin-top: 1%;
+  }
+
+
+.flex-container {
+	display:flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+
+.break {
+	flex-basis: 100%;
+	height: 0;
+}
+
+#location{
+	font-weight: 300;
+}
+
 
 #contentPic {
 	border-bottom-left-radius: 9px;
@@ -175,11 +189,4 @@ overlay
     background: white;
     top: -10px;
     right: -10px;
-}
-
-.profileLink {
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	color: #707070;
 }
